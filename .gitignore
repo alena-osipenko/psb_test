@@ -1,0 +1,21 @@
+# compiled output
+/dist
+
+# IDEs and editors
+.idea
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Yarn Integrity file
+.yarn-integrity
+
+# System Files
+.DS_Store
+Thumbs.db
