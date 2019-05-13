@@ -1,0 +1,31 @@
+.fsc {
+  background-color: #E2E7FF;
+  color: #646479;
+  padding: 36px 0;
+}
+.fsc-small {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  opacity: 0.7;
+  font-weight: 500;
+  margin: 0;
+}
+.fsc-title {
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+.fsc-desc {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+.fsc-image {
+  background-image: url('../img/fs-img.png');
+  width: 100%;
+  height: 217px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

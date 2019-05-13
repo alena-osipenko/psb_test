@@ -5,6 +5,457 @@
 </head>
 
 <body>
+<header class="header-top">
+    <div class="container container_header-top">
+        <a href="#" class="logo">
+            <svg width="46" height="30" viewBox="0 0 46 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M0 22.7525C0 26.7544 3.15979 29.9992 7.05445 29.9992H17.0253C20.239 29.9992 22.9828 27.7735 23.8194 24.6941H11.7672C7.13148 24.6941 5.16489 22.4795 5.16489 17.2829V5.53819C2.1738 6.39349 0 9.21968 0 12.5111V22.7525Z"
+                      fill="#E05A2D"/>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M29.0002 7.24747C29.0002 3.24475 25.8397 0 21.9412 0H11.9757C8.76125 0 6.01511 2.22488 5.18164 5.30426H17.2331C21.8649 5.30426 23.8353 7.51965 23.8353 12.7163V24.4602C26.8226 23.6057 29.0002 20.7779 29.0002 17.4865V7.24747Z"
+                      fill="white"/>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M18.7002 14.4663H17.7651V12.1362H18.7002C19.8372 12.1362 20.1468 12.7012 20.1468 13.2961C20.1468 13.8927 19.734 14.4663 18.7002 14.4663V14.4663ZM17.7651 8.74329H18.5115C19.774 8.74329 19.8372 9.54082 19.8372 9.78531C19.8372 10.1461 19.6515 10.817 18.5716 10.817H17.7651V8.74329ZM16.1274 12.8072V14.8366C15.733 14.5937 15.2777 14.4023 14.8017 14.1894C14.2832 13.9552 13.724 13.6585 13.724 12.9868C13.724 12.6434 13.932 12.1362 14.9265 12.1362H15.5881H16.1274H16.7713L16.1274 12.8072ZM9.792 18.0005H9.024V15.2637H9.792C10.7433 15.2637 11.1785 15.8602 11.1785 16.5834C11.1785 17.2551 10.7865 18.0005 9.792 18.0005V18.0005ZM20.1902 11.445V11.4149C20.7486 11.2321 21.4951 10.7566 21.4951 9.49859C21.4951 8.0847 20.375 7.43591 18.8021 7.43591H16.1291V10.8183H14.5554C12.444 10.8183 12.008 12.3406 12.008 13.1698C12.008 14.3495 12.6689 14.8709 13.8952 15.4967C14.6386 15.8805 15.5267 16.1139 15.5267 16.9898C15.5267 17.4447 15.1154 17.9993 14.2242 17.9993H12.5672C12.813 17.5618 12.92 17.0863 12.92 16.6685C12.92 16.1281 12.7313 13.9563 9.79105 13.9563H7.3877V22.328H9.02305V18.6806L9.68474 19.361H14.1625C16.2508 19.361 17.2453 18.2541 17.2453 16.9367C17.2453 16.4683 17.1629 16.0933 17.0196 15.7879H18.6996C21.2863 15.7879 21.8848 14.4674 21.8848 13.4325C21.8848 12.3833 21.2231 11.6048 20.1902 11.445V11.445Z"
+                      fill="white"/>
+            </svg>
+        </a>
+        <ul class="menu-top">
+            <li class="menu-top__item">
+                <a href="#" class="menu-top__link active">Частным лицам</a>
+            </li>
+            <li class="menu-top__item">
+                <a href="#" class="menu-top__link">Малый бизнес</a>
+            </li>
+            <li class="menu-top__item">
+                <a href="#" class="menu-top__link">Средний бизнес</a>
+            </li>
+            <li class="menu-top__item">
+                <a href="#" class="menu-top__link">Корпорациям</a>
+                <!-- a href="/Corporate" class="menu-top__link" -->
+            </li>
+            <li class="menu-top__item">
+                <a href="#" class="menu-top__link menu-top__link_marker-green">
+                    <!-- a href="/Goz" class="menu-top__link menu-top__link_marker-green" -->
+                    <svg width="4" height="4" viewBox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="4" height="4" rx="2" fill="#8E995D"/>
+                    </svg>
+                    Гособоронзаказ
+                </a>
+            </li>
+            <li class="menu-top__item">
+                <a href="#" class="menu-top__link">Private Banking</a>
+            </li>
+            <li class="menu-top__item">
+                <a href="#" class="menu-top__link menu-top__more">Ещё</a>
+            </li>
+        </ul>
+
+
+        <div class="header-top__small">
+            <ul class="header-top__small-list">
+                <li class="header-top__small-item-list">
+                    <button class="header-top__button" type="button">
+                        <svg width="16" height="22" viewBox="0 0 16 22" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M4.19873 7.3849C4.19873 5.41255 5.85424 3.81494 7.89808 3.81494C9.94192 3.81494 11.5974 5.43227 11.5974 7.40462C11.5974 9.37698 9.94192 10.9746 7.89808 10.9746C5.85424 10.9746 4.19873 9.35725 4.19873 7.3849ZM6.03798 7.38186C6.03798 8.36804 6.87596 9.1767 7.89788 9.1767C8.9198 9.1767 9.75777 8.38776 9.75777 7.38186C9.75777 6.39569 8.9198 5.58702 7.89788 5.58702C6.87596 5.58702 6.03798 6.39569 6.03798 7.38186Z"
+                                  fill="white"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M5.977 0.497402C7.87778 0.00431317 9.88074 0.260719 11.5976 1.20745C15.1334 3.1798 16.3597 7.55843 14.3159 10.9706L7.89821 21.7002L1.48056 10.9903C0.172497 8.78129 0.172497 6.03972 1.48056 3.83068C2.4616 2.1739 4.05579 0.99049 5.977 0.497402ZM3.07479 10.085L7.89825 18.1322L12.7217 10.0653C14.2546 7.52094 13.3349 4.22711 10.6779 2.74785C9.39025 2.0378 7.89825 1.84056 6.46756 2.21531C5.01644 2.59006 3.83101 3.47762 3.07479 4.7202C2.09374 6.37698 2.09374 8.42822 3.07479 10.085Z"
+                                  fill="white"/>
+                        </svg>
+                    </button>
+                    <p class="header-top__button-text">
+                        Офисы и банкоматы
+                    </p>
+                </li>
+
+                <li class="header-top__small-item-list">
+                    <button class="header-top__button" type="button">
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+                            <path d="M12.9562 14.2716L7.72675 9.02157L9.47675 7.27157L4.24733 2.06274L1.63263 4.63627C-0.13796 6.40686 -0.13796 9.3098 1.63263 11.0804L10.9179 20.3657C11.7826 21.2304 12.915 21.7039 14.1297 21.7039C15.3444 21.7039 16.4973 21.2304 17.3415 20.3657L19.9356 17.7716L14.7062 12.5216L12.9562 14.2716ZM16.1885 19.2127C15.6326 19.7686 14.912 20.0569 14.1297 20.0569C13.3473 20.0569 12.6267 19.748 12.0709 19.2127L2.78557 9.92745C1.65322 8.7951 1.65322 6.94216 2.78557 5.8098L4.22675 4.36863L7.15028 7.29216L5.40028 9.04216L12.9767 16.6186L14.7267 14.8686L17.6297 17.7716L16.1885 19.2127Z"
+                                  fill="white"/>
+                            <path d="M16.7649 10.1754H18.412C18.412 6.55186 15.4473 3.58716 11.8237 3.58716V5.23422C14.5414 5.23422 16.7649 7.45775 16.7649 10.1754Z"
+                                  fill="white"/>
+                            <path d="M11.8237 0.292236V1.9393C16.3737 1.9393 20.059 5.62459 20.059 10.1746H21.7061C21.7061 4.71871 17.2796 0.292236 11.8237 0.292236Z"
+                                  fill="white"/>
+                        </svg>
+                    </button>
+                    <p class="header-top__button-text">
+                        Контакты
+                    </p>
+                </li>
+                <li class="header-top__small-item-list">
+                    <button class="header-top__button" type="button">
+                        <svg width="21" height="20" viewBox="0 0 21 20" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M0.162109 7.83414C0.162109 3.82711 3.53218 0.575684 7.68544 0.575684C11.8387 0.575684 15.2325 3.82711 15.2088 7.83414C15.2088 9.75752 14.4256 11.5893 13.0016 12.9631C11.5776 14.337 9.70273 15.0926 7.68544 15.0926C5.69187 15.0926 3.79324 14.337 2.36927 12.9631C0.945295 11.5893 0.162109 9.78042 0.162109 7.83414ZM7.70977 13.031C9.13375 13.031 10.4865 12.5044 11.507 11.5198C12.5038 10.5352 13.0734 9.23004 13.1209 7.8562C13.1209 4.99403 10.7001 2.6585 7.73351 2.6585C4.76689 2.6585 2.34614 4.99403 2.34614 7.8562C2.34614 9.23004 2.89199 10.5352 3.91251 11.5198C4.93302 12.4815 6.26207 13.031 7.70977 13.031Z"
+                                  fill="white"/>
+                            <path d="M13.375 14.8027L14.9021 13.3294L20.289 18.5266L18.7619 19.9999L13.375 14.8027Z"
+                                  fill="white"/>
+                        </svg>
+                    </button>
+                    <p class="header-top__button-text">
+                        Поиск
+                    </p>
+                </li>
+                <li class="header-top__small-item-list btn-main_header-top d-none d-lg-block ib-button">
+                    Вход
+                </li>
+            </ul>
+
+            <a href="#" class="burger-btn"><span class="burger-btn__item"></span></a>
+        </div>
+
+    </div>
+</header>
+<header class="header-bottom">
+    <div class="container container_header-top">
+        <ul class="main-menu">
+            <li class="main-menu__item">
+                <div class="main-menu__link" data-link=''>
+                    Кредиты
+                </div>
+            </li>
+            <li class="main-menu__item">
+                <div class="main-menu__link" data-link=''>
+                    Вклады
+                </div>
+            </li>
+            <li class="main-menu__item">
+                <div class="main-menu__link" data-link=''>
+                    Ипотека
+                </div>
+            </li>
+            <li class="main-menu__item">
+                <div class="main-menu__link" data-link=''>
+                    Карты
+                </div>
+            </li>
+            <li class="main-menu__item">
+                <div class="main-menu__link" data-link=''>
+                    Orange PremiumClub
+                </div>
+            </li>
+            <li class="main-menu__item">
+                <div class="main-menu__link" data-link=''>
+                    Для всей семьи
+                </div>
+            </li>
+            <li class="main-menu__item">
+                <div class="main-menu__link" data-link=''>
+                    Онлайн обслуживание
+                </div>
+            </li>
+            <li class="main-menu__item">
+                <div class="main-menu__link" data-link=''>
+                    Инвестиции
+                </div>
+            </li>
+            <li class="main-menu__item">
+                <div class="main-menu__link" data-link=''>
+                    Счета и переводы
+                </div>
+            </li>
+        </ul>
+
+    </div>
+</header>
+
+<div class="wrapper">
+
+    <div class="fsc">
+
+        <div class="container container-fsc">
+            <div class="fsc-carousel">
+                <p class="fsc-small">
+                    Кредитные карты
+                </p>
+                <h1 class="fsc-title">
+                    Премиальная программа Orange Premium Club
+                </h1>
+                <p class="fsc-desc">
+                    Возможно все!<br>
+                    Пользуйтесь привилегиями и&nbsp;получайте кэшбэк до&nbsp;10%.
+                </p>
+                <button class="btn-main">
+                    Узнать больше
+                </button>
+            </div>
+            <div class="fsc-image">
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="wrapper">
+    <div class="collapse">
+        <div class="accordion karen">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-target="#collapseOne" aria-expanded="true"
+                                aria-controls="collapseOne">
+                            Collapsible Group Item #1
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                     data-parent="#accordionExample">
+                    <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                        3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
+                        laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
+                        coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
+                        anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+                        occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard
+                        of them accusamus labore sustainable VHS.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-target="#collapseTwo"
+                                aria-expanded="false" aria-controls="collapseTwo">
+                            Collapsible Group Item #2
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                        3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
+                        laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
+                        coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
+                        anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+                        occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard
+                        of them accusamus labore sustainable VHS.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-target="#collapseThree"
+                                aria-expanded="false" aria-controls="collapseThree">
+                            Collapsible Group Item #3
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                        3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
+                        laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
+                        coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
+                        anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+                        occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard
+                        of them accusamus labore sustainable VHS.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--<div class="wrapper">-->
+
+<!--<div class="container container-faq">-->
+<!--<h2 class="section-title">-->
+<!--Частые вопросы о&nbsp;регистрации бизнеса-->
+<!--</h2>-->
+
+<!--<div id="accordion">-->
+<!--<div class="faq_items">-->
+<!--<div class="card-header faq_item-title" id="headingOne">-->
+<!--<h5 class="mb-0 faq_item-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">-->
+<!--Кто может зарегистрироваться в&nbsp;качестве&nbsp;ИП?-->
+<!--</h5>-->
+<!--</div>-->
+
+<!--<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">-->
+<!--<div class="card-body faq_item-desc">-->
+<!--Мы&nbsp;предлагаем тебе стать &laquo;соавтором&raquo; нашего нового сайта, ведь только пользователь знает, как лучше и&nbsp;удобнее.-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="faq_items">-->
+<!--<div class="card-header faq_item-title" id="headingTwo">-->
+<!--<h5 class="mb-0 faq_item-header" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">-->
+<!--Как оплатить госпошлину за&nbsp;регистрацию&nbsp;ИП?-->
+<!--</h5>-->
+<!--</div>-->
+<!--<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">-->
+<!--<div class="card-body faq_item-desc">-->
+<!--Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="faq_items">-->
+<!--<div class="card-header faq_item-title" id="headingThree">-->
+<!--<h5 class="mb-0 faq_item-header" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">-->
+<!--По&nbsp;какому адресу может быть осуществлена регистрация&nbsp;ИП?-->
+<!--</h5>-->
+<!--</div>-->
+<!--<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">-->
+<!--<div class="card-body faq_item-desc">-->
+<!--Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="faq_items">-->
+<!--<div class="card-header faq_item-title" id="headingFour">-->
+<!--<h5 class="mb-0 faq_item-header" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">-->
+<!--Как подписать заявление о&nbsp;регистрации&nbsp;ИП?-->
+<!--</h5>-->
+<!--</div>-->
+<!--<div id="collapseFour" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">-->
+<!--<div class="card-body faq_item-desc">-->
+<!--Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="faq_items">-->
+<!--<div class="card-header faq_item-title" id="headingFive">-->
+<!--<h5 class="mb-0 faq_item-header" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">-->
+<!--Как ИП&nbsp;получить коды статистики?-->
+<!--</h5>-->
+<!--</div>-->
+<!--<div id="collapseFive" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">-->
+<!--<div class="card-body faq_item-desc">-->
+<!--Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+
+<!--</div>-->
+
+<!--</div>-->
+
+
+<div class="wrapper">
+
+
+    <div class="fs" id="fs">
+        <div class="container container_fs">
+            <div class="fs-carousel owl-carousel">
+                <div class="fs-carousel__item" data-color="#E2E7FF">
+                    <div class="fs-carousel__description offset-lg-1">
+                        <div class="fs-carousel__info">
+                            <p class="fs-carousel__tooltip">Кредитные карты</p>
+                            <h2 class="main-title main-title_fs-carousel">
+                                Премиальная программа Orange Premium Club
+                            </h2>
+                            <p class="text-info text-info_fs-carousel">
+                                Возможно все!<br>
+                                Пользуйтесь привилегиями и получайте кэшбэк до 10%.
+                            </p>
+                        </div>
+                        <a Class="btn-main btn-main_fs-carousel" href="#">Узнать больше</a>
+                    </div>
+
+                    <div class="fs-carousel__image"
+                         style="background: url('https://www.psbank.ru/-/media/PSB-1_2/Presonal/CardBlocks/cashback.png') no-repeat bottom right /auto 100%;"></div>
+                    <img class="fs-carousel__image_mob"
+                         src='https://www.psbank.ru/-/media/PSB-1_2/Presonal/CardBlocks/cashback.png' alt="">
+                </div>
+                <div class="fs-carousel__item" data-color="#E2E7FF">
+                    <div class="fs-carousel__description offset-lg-1">
+                        <div class="fs-carousel__info">
+                            <p class="fs-carousel__tooltip">Кредитные карты</p>
+                            <h2 class="main-title main-title_fs-carousel">
+                                Премиальная программа Orange Premium Club
+                            </h2>
+                            <p class="text-info text-info_fs-carousel">
+                                Возможно все!<br>
+                                Пользуйтесь привилегиями и получайте кэшбэк до 10%.
+                            </p>
+                        </div>
+                        <a Class="btn-main btn-main_fs-carousel" href="#">Узнать больше</a>
+                    </div>
+
+                    <div class="fs-carousel__image"
+                         style="background: url('https://www.psbank.ru/-/media/PSB-1_2/Presonal/CardBlocks/cashback.png') no-repeat bottom right /auto 100%;"></div>
+                    <img class="fs-carousel__image_mob"
+                         src='https://www.psbank.ru/-/media/PSB-1_2/Presonal/CardBlocks/cashback.png' alt="">
+                </div>
+                <div class="fs-carousel__item" data-color="#E2E7FF">
+                    <div class="fs-carousel__description offset-lg-1">
+                        <div class="fs-carousel__info">
+                            <p class="fs-carousel__tooltip">Кредитные карты</p>
+                            <h2 class="main-title main-title_fs-carousel">
+                                Премиальная программа Orange Premium Club
+                            </h2>
+                            <p class="text-info text-info_fs-carousel">
+                                Возможно все!<br>
+                                Пользуйтесь привилегиями и получайте кэшбэк до 10%.
+                            </p>
+                        </div>
+                        <a Class="btn-main btn-main_fs-carousel" href="#">Узнать больше</a>
+                    </div>
+
+                    <div class="fs-carousel__image"
+                         style="background: url('https://www.psbank.ru/-/media/PSB-1_2/Presonal/CardBlocks/cashback.png') no-repeat bottom right /auto 100%;"></div>
+                    <img class="fs-carousel__image_mob"
+                         src='https://www.psbank.ru/-/media/PSB-1_2/Presonal/CardBlocks/cashback.png' alt="">
+                </div>
+                <div class="fs-carousel__item" data-color="#E2E7FF">
+                    <div class="fs-carousel__description offset-lg-1">
+                        <div class="fs-carousel__info">
+                            <p class="fs-carousel__tooltip">Кредитные карты</p>
+                            <h2 class="main-title main-title_fs-carousel">
+                                Премиальная программа Orange Premium Club
+                            </h2>
+                            <p class="text-info text-info_fs-carousel">
+                                Возможно все!<br>
+                                Пользуйтесь привилегиями и получайте кэшбэк до 10%.
+                            </p>
+                        </div>
+                        <a Class="btn-main btn-main_fs-carousel" href="#">Узнать больше</a>
+                    </div>
+
+                    <div class="fs-carousel__image"
+                         style="background: url('https://www.psbank.ru/-/media/PSB-1_2/Presonal/CardBlocks/cashback.png') no-repeat bottom right /auto 100%;"></div>
+                    <img class="fs-carousel__image_mob"
+                         src='https://www.psbank.ru/-/media/PSB-1_2/Presonal/CardBlocks/cashback.png' alt="">
+                </div>
+                <div class="fs-carousel__item" data-color="#E2E7FF">
+                    <div class="fs-carousel__description offset-lg-1">
+                        <div class="fs-carousel__info">
+                            <p class="fs-carousel__tooltip">Кредитные карты</p>
+                            <h2 class="main-title main-title_fs-carousel">
+                                Премиальная программа Orange Premium Club
+                            </h2>
+                            <p class="text-info text-info_fs-carousel">
+                                Возможно все!<br>
+                                Пользуйтесь привилегиями и получайте кэшбэк до 10%.
+                            </p>
+                        </div>
+                        <a Class="btn-main btn-main_fs-carousel" href="#">Узнать больше</a>
+                    </div>
+
+                    <div class="fs-carousel__image"
+                         style="background: url('https://www.psbank.ru/-/media/PSB-1_2/Presonal/CardBlocks/cashback.png') no-repeat bottom right /auto 100%;"></div>
+                    <img class="fs-carousel__image_mob"
+                         src='https://www.psbank.ru/-/media/PSB-1_2/Presonal/CardBlocks/cashback.png' alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <div class="container">
+
+    </div>
+</footer>
 
 <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
 </body>

@@ -35,6 +35,10 @@ module.exports = {
                     'file-loader?hash=sha512&digest=hex&name=[hash].[ext]',
                     'image-webpack-loader?bypassOnDebug&optimizationLevel=7&interlaced=false'
                 ]
+            },
+            {
+                test: /\.woff2$/,
+                loader: 'url-loader?limit=100000'
             }
         ]
     },
