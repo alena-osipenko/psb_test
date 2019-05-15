@@ -14,6 +14,8 @@ header {
   }
   .logo {
     margin: 0;
+    width: 31px;
+    height: 32px;
   }
   .line-border {
     background: #e05a2d;
@@ -129,7 +131,11 @@ header {
     display: none !important;
   }
 
-@media screen and (min-width: 768px) and (max-width: 1400px){
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  .logo {
+    width: 35px;
+    height: 36px;
+  }
   .header-top__button-text {
     margin-left: 8px;
     display: block;
@@ -138,7 +144,26 @@ header {
     line-height: 18px;
   }
 }
-@media screen and (min-width: 1400px) {
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .menu-top {
+    max-width: 640px;
+    margin-right: 64px;
+  }
+  .container_header-top {
+    justify-content: normal;
+  }
+  .menu-item-lap {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .logo {
+    margin-right: 50px;
+    width: 29px;
+    height: 30px;
+  }
   .header-top {
     border-bottom: 1px solid #E9ECF4;
   }
@@ -155,13 +180,14 @@ header {
     flex: 1 1 100%;
   }
   .menu-top {
+    min-width: 620px;
+    margin-right: 64px;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     margin-bottom: 0;
     flex-grow: 1;
     justify-content: space-between;
-    padding: 0 100px 0 40px;
   }
   .header-top__button-text {
     display: none;
@@ -190,6 +216,10 @@ header {
     transition: all .2s linear;
     transform: rotateX(0);
   }
+  .header-top__small {
+    position: absolute;
+    right: 0;
+  }
   .btn-main_header-top {
     -ms-flex: 0 0 auto;
     display: block !important;
@@ -211,5 +241,17 @@ header {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
+  }
+
+}
+@media screen and (min-width: 1280px) {
+  .menu-item-lap {
+    display: block;
+  }
+  .menu-top {
+    min-width: 840px;
+  }
+  .header-top__small {
+    position: relative;
   }
 }
