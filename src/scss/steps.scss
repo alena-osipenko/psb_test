@@ -6,6 +6,17 @@
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.5px;
+  font-weight: 500;
+}
+.steps-carousel:before {
+  content: '';
+  background-image: url("../img/hand.svg");
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 18px;
+  position: absolute;
+  top: -18px;
+  right: 18px;
 }
 .steps-carousel__item {
   min-width: 260px ;
@@ -35,6 +46,7 @@
   letter-spacing: 0.02em;
   max-width: 240px;
   padding: 0 24px;
+  font-weight: 500;
 }
 .steps-carousel .owl-stage {
   display: flex;
@@ -48,6 +60,9 @@
 @media screen and (min-width: 768px) {
   .steps-container {
     max-width: 1440px;
+  }
+  .steps-carousel:before {
+    right: 24px;
   }
   .steps-carousel__number {
     min-width: 286px;
@@ -63,6 +78,9 @@
   .steps-desc {
     text-align: center;
   }
+  .steps-carousel:before {
+    display: none;
+  }
   .steps-carousel .owl-item:first-of-type {
     margin-left: -300px;
   }
@@ -70,7 +88,7 @@
     min-width: 278px;
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .steps-carousel .owl-stage {
     margin: 0 auto;
   }

@@ -15,6 +15,12 @@
   letter-spacing: 0.5px;
   font-weight: 500;
 }
+.faq_item-header {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
 .mb-0 + .faq_item-header {
   color: #E05A2D;
 }
@@ -34,6 +40,10 @@
 @media screen and (min-width: 1024px) {
   .faq_item-title {
     padding: 0 100px;
+  }
+  .faq_item-header {
+    font-size: 24px;
+    line-height: 30px;
   }
   .faq_item-desc {
     padding: 1.25rem 100px;

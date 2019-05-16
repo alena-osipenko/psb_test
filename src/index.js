@@ -19,7 +19,7 @@ $(document).ready(function () {
                 margin:24,
                 items: 3
             },
-                1280:{
+            1200: {
                 center: false,
                 responsiveClass:true,
                 loop:false,
@@ -53,3 +53,4 @@ $(document).ready(function () {
         }
     });
 });
+
