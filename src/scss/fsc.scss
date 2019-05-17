@@ -3,28 +3,44 @@
   color: #646479;
   padding: 36px 0;
   margin-bottom: 84px;
-}
-.fsc-small {
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.5px;
-  opacity: 0.7;
-  font-weight: 500;
-  margin: 0;
-}
-.fsc-title {
-  font-size: 30px;
-  line-height: 36px;
-  letter-spacing: 0.5px;
-  font-weight: bold;
-  margin-bottom: 12px;
-}
-.fsc-desc {
-  font-size: 18px;
-  line-height: 24px;
-  letter-spacing: 0.5px;
-  margin-bottom: 30px;
-  font-weight: normal;
+  &__small {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    opacity: 0.7;
+    font-weight: 500;
+    margin: 0;
+  }
+  &__title {
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+  &__desc {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+    font-weight: normal;
+  }
+  &__btn {
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: .5px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    padding: 14px 30px;
+    background: #e05a2d;
+    border: 1px solid transparent;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+    display: block;
+  }
 }
 .fsс-carousel__item {
   background-image: url("../img/fs-bg.png");
@@ -34,12 +50,6 @@
   height: 540px;
   min-height: 540px;
 }
-.fsc-btn {
-  width: 100%;
-  max-width: 320px;
-  margin: 0 auto;
-  display: block !important;
-}
 .fsc-carousel .owl-scene {
   top: 36px;
   margin: -22px auto 0
@@ -47,59 +57,26 @@
 .owl-next, .owl-prev {
   display: none;
 }
-.owl-dots {
-  width: 150px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: -70px;
-  text-align: center;
-  margin: 0 auto;
-  transition: all .2s ease-in-out
-}
-
-.owl-dot {
-  margin: 0 12px;
-  outline: 0
-}
-
-.owl-dot span {
-  width: 6px !important;
-  height: 6px;
-  background: #c1c1c1 !important;
-  border-radius: 50%;
-  transition: all .2s ease-in-out;
-  display: -ms-flexbox;
-  display: flex;
-  transform: scale(1)
-}
-
-.owl-dot.first_etc span, .owl-dot.last_etc span {
-  transform: scale(.7)
-}
-
-.owl-dot.active span {
-  background: #e05a2d !important;
-  transform: scale(1.4)
-}
 
 @media screen and (min-width: 768px) {
   .fsc-container {
     max-width: 1440px;
   }
+  .fsc {
+    &__text {
+      max-width: 286px;
+      margin-left: 86px;
+    }
+    &__btn {
+      width: 196px;
+      max-width: none;
+      margin: 0;
+    }
+  }
   .fsс-carousel__item {
     background-position: right center;
     min-height: unset;
     height: unset;
-  }
-  .fsc-text {
-    max-width: 286px;
-    margin-left: 86px;
-  }
-  .fsc-btn {
-    width: 196px;
-    max-width: none;
-    margin: 0;
   }
   .owl-dots {
     bottom: -65px;
@@ -109,28 +86,28 @@
 @media screen and (min-width: 1024px) {
   .fsc {
     padding: 0;
+    &__title {
+      font-size: 44px;
+      line-height: 48px;
+      margin-bottom: 18px;
+    }
+    &__text {
+      max-width: 480px;
+      margin-left: 76px;
+    }
+    &__desc {
+      font-size: 24px;
+      line-height: 30px;
+      margin-bottom: 36px;
+    }
+    &__btn {
+      width: 212px;
+    }
   }
   .fsс-carousel__item {
     background-size: 55% auto;
     background-position: 110% center;
     padding: 56px 0;
-  }
-  .fsc-title {
-    font-size: 44px;
-    line-height: 48px;
-    margin-bottom: 18px;
-  }
-  .fsc-text {
-    max-width: 480px;
-    margin-left: 76px;
-  }
-  .fsc-desc {
-    font-size: 24px;
-    line-height: 30px;
-    margin-bottom: 36px;
-  }
-  .fsc-btn {
-    width: 212px;
   }
   .owl-next, .owl-prev {
     position: absolute;
