@@ -47,11 +47,8 @@ header {
       height: 30px;
       display: -ms-flexbox;
       display: flex;
-      -ms-flex-flow: column;
       flex-flow: column;
-      -ms-flex-align: center;
       align-items: center;
-      -ms-flex-pack: center;
       justify-content: center;
       position: relative
     }
@@ -75,11 +72,8 @@ header {
   position: relative;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: column;
   flex-flow: column;
-  -ms-flex-align: center;
   align-items: center;
-  -ms-flex-pack: center;
   justify-content: center;
   cursor: pointer
 }
@@ -220,7 +214,6 @@ header {
       }
     }
     &__btn-main {
-      -ms-flex: 0 0 auto;
       display: block;
       flex: 0 0 auto;
       width: 80px;
