@@ -24,7 +24,6 @@
     width: 100%;
   }
   &__item-title {
-    border-radius: unset !important;
     border: unset;
     display: flex;
     align-items: center;
@@ -58,6 +57,9 @@
       }
     }
   }
+}
+.faq__item .faq__item-title {
+  border-radius: 0;
 }
 
 @media screen and (min-width: 768px) {

@@ -33,19 +33,10 @@
     font-weight: 500;
     padding-bottom: 12px;
     &:last-of-type {
-      display: none !important;
+      display: none;
       padding-bottom: 0;
     }
     &--tab {
-      padding-bottom: 0;
-    }
-  }
-  &__icons {
-    padding-bottom: 36px;
-  }
-  &__link {
-    &:last-of-type {
-      display: none !important;
       padding-bottom: 0;
     }
   }
@@ -178,7 +169,7 @@
     }
     &__link {
       &:last-of-type {
-        display: block !important;
+        display: block;
         padding-bottom: 0;
       }
       &--tab {

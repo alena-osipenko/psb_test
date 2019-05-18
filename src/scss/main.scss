@@ -63,9 +63,12 @@ a:hover {
 .owl-dot.first_etc span, .owl-dot.last_etc span {
   transform: scale(.7)
 }
+.owl-theme .owl-dots .owl-dot {
+  outline: none;
+}
 .owl-dot.active span {
-  background: #e05a2d !important;
-  transform: scale(1.4)
+  background: #e05a2d;
+  transform: scale(1.4);
 }
 @media screen and (min-width: 768px) {
   h2 {
